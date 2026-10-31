@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-retinal-microvasculature-av-ratio-stroke-risk-skill",
+  "version": "1.0.0",
+  "description": "Digital fundus photography arteriolar-to-venular diameter ratio (AVR) and fractal dimension cerebral microvascular stroke stratifier.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "stratify_retinal_av_ratio_stroke_risk",
+      "description": "Digital fundus photography arteriolar-to-venular diameter ratio (AVR) and fractal dimension cerebral microvascular stroke stratifier.",
+      "sample_input": {
+        "crae_microns": 152.0,
+        "crve_microns": 218.0,
+        "fractal_dimension": 1.44,
+        "systolic_bp": 122
+      }
+    }
+  ]
+}
